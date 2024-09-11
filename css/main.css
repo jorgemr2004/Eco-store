@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFEFE7;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+nav {
+  width: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #7C6A0A;
+}
+nav p {
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+
+article {
+  width: auto;
+  padding-left: 45px;
+  padding-right: 45px;
+  color: #7C6A0A;
+  display: flex;
+  justify-content: space-between;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-top: 70px;
+}
+article h1 {
+  font-size: 6rem;
+}
+article p {
+  font-size: 2.5rem;
+}
+article button {
+  width: 12vw;
+  padding: 20px;
+  background-color: #FA9500;
+  border-style: none;
+  border-radius: 35px;
+  color: white;
+  font-size: 1rem;
+}
+article button:hover {
+  transform: scale(1.1);
+}
+article .image-section img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
+section {
+  width: auto;
+  height: auto;
+  padding: 60px;
+}
+section h2 {
+  color: #7C6A0A;
+  font-size: 1.8rem;
+}
+section .healthcare, section .furniture {
+  padding-bottom: 60PX;
+}
+section .healthcare h2, section .furniture h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .card-section {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  row-gap: 80px;
+}
+section .card-section .product-card {
+  width: 14vw;
+  height: 0 auto;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .card-section .product-card h3 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+section .card-section .product-card p {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+section .card-section .product-card .icon {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 12px;
+}
+section .card-section .product-card .icon svg {
+  width: 28px;
+  height: 28px;
+}
+section .card-section .product-card .product-image {
+  width: 14vw;
+  height: auto;
+  display: block;
+}
+section .card-section .product-card .product-image img {
+  width: 12vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+section .product-card {
+  width: 100%;
+  height: 0 auto;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  padding: 20px;
+  border-radius: 8px;
+}
+section .product-card h3 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+section .product-card p {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+section .product-card .icon {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 12px;
+}
+section .product-card .icon svg {
+  width: 28px;
+  height: 28px;
+}
+section .product-card .product-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .product-card .product-image img {
+  width: 12vw;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+section .furniture .product-card {
+  background-color: #BABD8D;
+  color: #ffffff;
+}
+
+.about-us {
+  padding-bottom: 60px;
+}
+.about-us h2 {
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.about-us .mision-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-us .mision-section .earth, .about-us .mision-section .innovation {
+  width: 40vw;
+  display: flex;
+  gap: 40px;
+  color: #E86424;
+}
+.about-us .mision-section p {
+  text-align: center;
+  font-size: 2rem;
+}
+.gallery {
+  margin-top: 40px;
+}
+.gallery h2 {
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.gallery .gallery-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery .gallery-images img {
+  width: 50vh;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+}
+.gallery .gallery-images img:hover {
+  transform: scale(1.1);
+}
+
+.location {
+  margin-top: 60px;
+  color: #E86424;
+}
+.location h2 {
+  padding-bottom: 60px;
+}
+.location .map {
+  display: flex;
+  flex-direction: raw;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.location p {
+  font-size: 1.5rem;
+}
+.location h3 {
+  font-size: 2.2rem;
+}
+
+footer {
+  background-color: #FA9500;
+  width: 100%;
+  height: 0 auto;
+  color: white;
+  padding: 40px;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=main.css.map */
